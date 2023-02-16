@@ -17,7 +17,7 @@ for archivo in $consumos*.txt; do
   Narchivos=$((Narchivos + 1))
 done
 
-avg= ($tconsumo / $num_archivos | bc)
+avg= ($tconsumo / $num_archivos)
 
 echo $avg
 
