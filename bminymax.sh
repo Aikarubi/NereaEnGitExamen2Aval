@@ -10,3 +10,6 @@ echo valencia >> valencia.txt
 echo barcelona >> barcelona.txt
 echo madrid >> madrid.txt
 
+echo "valencia.txt" | tr ' ' '\n' | sort -n | tail -n 1
+echo "barcelona.txt" | tr ' ' '\n' | sort -n | tail -n 1
+echo "madrid.txt" | tr ' ' '\n' | sort -n | tail -n 1
